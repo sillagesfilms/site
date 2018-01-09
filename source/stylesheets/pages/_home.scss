@@ -1,7 +1,9 @@
+body {
+    background-color: #FFFFFF;
+}
+
 #home {
-  background-color: #D23333;
-  color: white;
-  height: 100vh;
+  color: #B5B3B6;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -15,3 +17,4 @@
     font-size: 16px;
   }
 }
+

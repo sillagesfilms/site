@@ -1,19 +1,27 @@
 ---
-title: Le Wagon - Middleman
+title: Sillages - Films
 ---
 
 <div id="home">
   <div class="home-content">
-    <%= image_tag "logo.png", width: "200" %>
-    <p>
-      Middleman is now running!
-    </p>
-    <p>
-      Today is <%= Date.today %>
-    </p>
-    <p class="about">
-      <%= link_to "More about this template", "about.html" %>
-    </p>
+    <br>
+    <%= image_tag "logo_sillages.png", width: "500" %>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="container">
+      <div class="row">
+        <% data.films.each do |film| %>
+          <div class="col-xs-12 col-sm-6">
+            <%= partial(:cards, :locals => {film: film}) %>
+          </div>
+        <% end %>
+      </div>
+    </div>
+
   </div>
 </div>
 
