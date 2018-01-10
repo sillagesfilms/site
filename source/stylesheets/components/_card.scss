@@ -6,21 +6,37 @@
   color: white;
   position: relative;
   margin: 20px 5px;
+  box-shadow: 10px 10px 15px #AEB8BC;
+  &:hover {
+    > div {
+      display: block;
+    }
+  }
 }
 
 .card-description {
   position: absolute;
-  bottom: 10px;
-  left: 10px;
-}
-.card-description h2 {
+  bottom: 0px;
+  width: 100%;
+  height: 190px;
+  background-color: #76797A;
+  opacity:0.7;
+  text-align: left;
+  display: none;
+
+  h2, p {
+    padding-left: 20px;
+  }
+  h2 {
   font-size: 24px;
-}
-.card-description p {
+  }
+  p {
   font-size: 14px;
   opacity: 0.7;
   font-weight: lighter;
+  }
 }
+
 .card-link {
   position: absolute;
   top: 0;
