@@ -24,3 +24,5 @@ end
 data.films.each do |film|
   proxy "/#{film.title}.html", "/template.html", :locals => { :film => film }
 end
+
+ignore "/template.html"
