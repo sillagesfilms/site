@@ -3,5 +3,5 @@
     <h2><%= film.title %></h2>
     <p><%= film.description %></p>
   </div>
-  <a class="card-link" href="#" ></a>
+  <a class="card-link" href="<%= film.title.gsub(/\s/, "%20") %>.html" ></a>
 </div>

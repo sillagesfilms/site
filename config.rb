@@ -20,3 +20,7 @@ activate :deploy do |deploy|
   deploy.build_before = true
   deploy.deploy_method = :git
 end
+
+data.films.each do |film|
+  proxy "/#{film.title}.html", "/template.html", :locals => { :film => film }
+end
