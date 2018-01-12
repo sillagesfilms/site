@@ -1,8 +1,20 @@
-- title: 'Le seigneur des anneaux'
-  description: 'Super film avec des elfs et des méchants'
-- title: 'Vive les schtroumfs'
-  description: 'Wtf ?? '
-- title: 'Le seigneur des anneaux'
-  description: 'Super film avec des elfs et des méchants'
-- title: 'Harry'
-  description: 'Wtf ?? '
+- title: "LE MAUVAIS VITRIER"
+  auteur: "Donatien Burkard"
+  type_film: "Court-métrage"
+  annee: "2017"
+  image: "LMV_Affiche.jpg"
+- title: "PIIGS"
+  auteur: "Benoît Bertran de Balanda"
+  type_film: "Court-métrage"
+  annee: "2017"
+  image: "PIIGS_Affiche.jpg"
+- title: "PLEINE CAMPAGN"
+  auteur: "Pierre Mouchet"
+  type_film: "Court-métrage"
+  annee: "2018 (en post-production)"
+  image: "PLEINE_CAMPAGNE_Affiche.jpg"
+- title: "HORIZONTALE"
+  auteur: "Lola Gantillon"
+  type_film: "Court-métrage"
+  annee: "2018 (en pré-production)"
+  image: "HORIZONTALE_Affiche.jpg"
