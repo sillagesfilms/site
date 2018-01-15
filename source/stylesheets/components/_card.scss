@@ -76,6 +76,7 @@
 @media (max-width: 750px) {
   .card {
       flex: 0 0 calc(100% - 20px);
+      height: 90vh;
     > div {
       height: 190px;
     }
