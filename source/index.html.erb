@@ -3,20 +3,15 @@ title: Sillages - Films
 ---
 
 <div id="home">
-  <div class="home-content">
-    <%= image_tag "logo_sillages_films.png", width: "500" %>
-    <br>
+  <%= image_tag "logo_sillages_films.png", id: "page-logo" %>
+  <br>
 
-    <div class="container">
-      <div class="row">
-        <% data.films.each do |film| %>
-          <div class="col-xs-12 col-sm-6">
-            <%= partial(:cards, :locals => {film: film}) %>
-          </div>
-        <% end %>
-      </div>
+  <div class="card-container">
+    <div class="card-flex-container">
+      <% data.films.each do |film| %>
+        <%= partial(:cards, :locals => {film: film}) %>
+      <% end %>
     </div>
-
   </div>
 </div>
 
