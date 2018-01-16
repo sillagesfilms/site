@@ -34,3 +34,9 @@ body {
     width: 360px;
   }
 }
+
+@media (max-width: 400px) {
+  #page-logo {
+    width: 300px;
+  }
+}
