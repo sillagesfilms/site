@@ -18,7 +18,6 @@ end
 
 activate :deploy do |deploy|
   deploy.build_before = true
-  deploy.host          = 'www.example.com'
   deploy.deploy_method = :git
 end
 
