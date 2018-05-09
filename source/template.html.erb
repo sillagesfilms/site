@@ -1,10 +1,27 @@
-<h1>Hello !</h1>
+---
+title: Sillages - Films
+---
 
-<p>It seems to work !</p>
-<p>
-  <%= film.title %>
-</p>
 
-<p>
-  <%= film.description %>
-</p>
+
+<div class="show-container">
+  <%= image_tag "logo_sillages_films.png", id: "page-logo" %>
+  
+  <div class="upper-block">
+    <div class="banner-img"><%= image_tag "http://via.placeholder.com/500x300"%></div>
+    <div class="upper-block-infos">Here are the infos</div>
+  </div>
+
+  <br>
+
+  <div class="down-block">
+    <img src="images/<%= film.image %>" class="poster">
+    <div class="details">
+      <h2><%= film.title %></h2>
+      <p>Un film de <%= film.auteur %></p>
+      <p><%= film.type_film %></p>
+      <p><%= film.annee %></p>
+    </div>
+  </div>
+
+</div>

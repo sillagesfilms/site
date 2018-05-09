@@ -1,20 +1,21 @@
 body {
-    background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 #page-logo {
   width: 500px;
+  margin: auto;
 }
 
 #home {
-  color: #B5B3B6;
+  color: #b5b3b6;
   padding: 0 20vw;
   position: relative;
   overflow: hidden;
   text-align: center;
-  
+
   a {
-    color: rgba(0,0,0,0.4);
+    color: rgba(0, 0, 0, 0.4);
     font-weight: bold;
     font-size: 16px;
   }
@@ -22,13 +23,13 @@ body {
 
 @media (max-width: 990px) {
   #home {
-      padding: 0 10vw;
+    padding: 0 10vw;
   }
 }
 
 @media (max-width: 750px) {
   #home {
-      padding: 0;
+    padding: 0;
   }
   #page-logo {
     width: 360px;
